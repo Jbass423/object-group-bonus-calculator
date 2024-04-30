@@ -47,11 +47,33 @@ console.log('array of employee data: ',  employees );
 
 
 // This function will calculate 1 employee's bonus!
-//
-function calculateIndividualEmployeeBonus( employee ) {  
-  // your logic here
-  
-  
-  // return new object with bonus results
+//// your logic here
+   /** use for of loop 
+    *     looping through the employees to find Atticus
+    *  if statement:
+    *     if name ===
+    */
 
+
+
+   for ( let employee of employees) {
+    //console.log("in employees");
+    if ( employee = "Atticus"){
+      console.log("we found it", employee )
+    }
+    
+   }
+
+ 
+   
+  
+function calculateIndividualEmployeeBonus( employee ) {  
+  console.log("inside of calculateIndvidualEmployeeBonus()");
+  console.log("employee" , employee);
+
+let results = [
+  
+]
+ 
 }
+
